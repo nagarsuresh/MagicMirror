@@ -1,0 +1,9 @@
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.todo-list .task-item {
+  font-size: 1.5rem;
+}

@@ -75,6 +75,7 @@ function createWindow() {
 			const devtools = new BrowserWindow(electronOptions);
 			mainWindow.webContents.setDevToolsWebContents(devtools.webContents);
 		}
+		mainWindow.fullScreen = false;
 		mainWindow.webContents.openDevTools();
 	}
 

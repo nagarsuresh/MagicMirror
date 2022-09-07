@@ -15,7 +15,7 @@
   --gap-body-bottom: 60px;
   --gap-body-left: 60px;
 
-  --gap-modules: 30px;
+  --gap-modules: 60px;
 }
 
 html {
@@ -70,13 +70,13 @@ body {
 }
 
 .medium {
-  font-size: 1.5rem;
-  line-height: 1.225;
+  font-size: 2.5rem;
+  line-height: 1.25;
 }
 
 .large {
   font-size: 3.25rem;
-  line-height: 1;
+  line-height: 1.5;
 }
 
 .xlarge {
